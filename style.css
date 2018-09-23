@@ -28,7 +28,7 @@ div.sider{
 	left: 100px;
 	top: 500px;
 	font-size:22;
-	width: 200px;
+	width: 25%;
 	color: 	#708090;
 		
 }
@@ -37,7 +37,7 @@ div.article-1{
 	left: 600px;
 	top: 500px;
 	font-size: 2em;
-	width: 200px;
+	width: 25%;
 	color: 	#708090;
 }
 div.article-2{
@@ -45,11 +45,11 @@ div.article-2{
 	left: 1000px;
 	top: 500px;
 	font-size: 2em;
-	width: 200px;
+	width: 25%;
 	color: 	#708090;
 }
 div.article-3{
-	width: 200px;
+	width: 25%;
 	position: absolute;
 	left: 1400px;
 	top: 500px;
@@ -61,5 +61,6 @@ div.detail{
 	font-size: 28;
 	top:100px;
 	color: 	#708090;
+  width:25%;
 	
 }
