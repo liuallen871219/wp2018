@@ -17,6 +17,7 @@ div.section{
 	color: 	#708090;
 }
 div.header{
+  width:auto;
 	position: absolute;
 	left: 5%;
 	top: 5%;
