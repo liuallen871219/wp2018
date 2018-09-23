@@ -1,0 +1,65 @@
+body{
+    
+   
+	background-image: url("https://i.imgur.com/WQOc9e1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+   
+}
+
+div.section{
+	position: relative;
+	top: 155px;
+	left: 205px;
+	width: 1700px;
+	height: 800px;
+	background-color: white;
+	color: 	#708090;
+}
+div.header{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	font-size: 4em;
+	color: 	#708090;
+}
+div.sider{
+	position: absolute;
+	left: 100px;
+	top: 500px;
+	font-size:22;
+	width: 200px;
+	color: 	#708090;
+		
+}
+div.article-1{
+	position: absolute;
+	left: 600px;
+	top: 500px;
+	font-size: 2em;
+	width: 200px;
+	color: 	#708090;
+}
+div.article-2{
+	position: absolute;
+	left: 1000px;
+	top: 500px;
+	font-size: 2em;
+	width: 200px;
+	color: 	#708090;
+}
+div.article-3{
+	width: 200px;
+	position: absolute;
+	left: 1400px;
+	top: 500px;
+	font-size: 2em;
+	color: 	#708090;
+}
+div.detail{
+	position: absolute;
+	font-size: 28;
+	top:100px;
+	color: 	#708090;
+	
+}
