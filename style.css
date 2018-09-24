@@ -27,7 +27,7 @@ div.header{
 div.sider{
 	position: absolute;
 	left: 10%;
-	top: 45%;
+	top: 65%;
 	font-size:22;
 	width: 20%;
 	color: 	#708090;
@@ -36,7 +36,7 @@ div.sider{
 div.article-1{
 	position: absolute;
 	left: 40%;
-	top: 45%;
+	top: 65%;
 	font-size: 2em;
 	width: 20%;
 	color: 	#708090;
@@ -44,7 +44,7 @@ div.article-1{
 div.article-2{
 	position: absolute;
 	left: 60%;
-	top: 45%;
+	top: 65%;
 	font-size: 2em;
 	width: 20%;
 	color: 	#708090;
@@ -53,12 +53,12 @@ div.article-3{
 	width: 20%;
 	position: absolute;
 	left: 80%;
-	top: 45%;
+	top: 65%;
 	font-size: 2em;
 	color: 	#708090;
 }
 div.detail{
-  left:0%;
+  	left:0%;
 	position: absolute;
 	font-size: 18;
 	top:100%;
