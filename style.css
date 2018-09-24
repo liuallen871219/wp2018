@@ -17,7 +17,7 @@ div.section{
 	color: 	#708090;
 }
 div.header{
-  width:auto;
+  	width:auto;
 	position: absolute;
 	left: 5%;
 	top: 5%;
@@ -60,7 +60,7 @@ div.article-3{
 div.detail{
   	left:0%;
 	position: absolute;
-	font-size: 18;
+	font-size: 24;
 	top:100%;
 	color: 	#708090;
   	width:100%;
