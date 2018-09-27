@@ -5,15 +5,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>		
         <script src="script.js"></script>
-		<script>/*$(document).ready(function(){
-			$(".photo").click(function(){
-				$("div").animate({opacity:'0'});
-				$(".myphoto").animate({left:'10px'});
-				
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script>
+			var state = true;
+			
+				$(document).ready(function()
+				{
+					
+    				$("i").click(function()
+								{
+									if(state)
+									{
+        							$("div").animate({backgroundColor:"#708090",color:"white"}, 200);
+									$("body").animate({backgroundSize:"120%"},200);	
+									$("p").slideToggle(500);		
+									}
+									
+									
+									else
+									{
+									$("div").animate({backgroundColor:"white",color:"#708090"}, 200);
+									$("body").animate({backgroundSize:"100%"},200);	
+									$("p").slideToggle(500);
+									}
+									
+									state = !state;
+    							});
 				});
-			});*/
+				
+				
+			
+			
+			
 		</script>
 		
     </head>
@@ -25,18 +53,20 @@
 					
 				</div> 
 				<div class="sider">Discover
-					 <div class="detail">你是肥沃的土地,我卻逐日枯萎死去.<br>因為,我是一株芙蓉,而他是雯暖的水澤</div>
+					 <div class="detail"><p>你是肥沃的土地,<br>我卻逐日枯萎死去.<br>因為,我是一株芙蓉,<br>而他是雯暖的水澤</p></div>
 				
 				</div>
 				<div class="article-1">Skin tone vs<br>fabric tone
-					<div class="detail">as</div>
+					<div class="detail"></div>
 				</div>
 				<div class="article-2">World we<br>live in
-					<div class="detail">as</div>
+					<div class="detail"></div>
 				</div>
 				<div class="article-3">James<br>Baldwin
-					<div class="detail">as</div>			
+					<div class="detail"></div>
+					<i class="fa fa-arrow-right"></i>
 				</div>
+				
 		
 		
 			</div>
